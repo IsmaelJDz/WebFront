@@ -3,56 +3,156 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Instalación de vinil</title>
+	<link rel="stylesheet" href="css/main.css">
 </head>
-<body>
+	<body>
 
-	<!-- HEADER -->
+		<!-- HEADER -->
 
-		<header>
+			<header>
 
-			<div class="logo">
+				<div class="logo">
+					<figure>
+						<img src="img/logo.png" width="260px">
+					</figure>
+					<figcaption>Si no te anuncias no existes.</figcaption>
+				</div>
+
+				<div class="nav">
+					<nav>
+						<ul>
+							<li>Inicio</li>
+							<li>Trabajos</li>
+							<li>Contacto</li>
+						</ul>
+					</nav>
+				</div>
+				
+				
+			</header>
+
+		<!-- FIN HEADER -->
+
+		<!-- DESC -->
+
+			<section>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium cum amet doloremque earum iusto ipsum quo ratione ducimus vero neque, provident eveniet maiores optio, quaerat debitis obcaecati aut voluptas tenetur.
+			</section>
+
+		<!-- FIN DESC -->
+
+		<!-- IMG -->
+
+			<section>
 				<figure>
-					<img src="img/logo.png" width="260px">
+					<img src="img/4794758.png" alt="" width="150px">
 				</figure>
-				<figcaption>Si no te anuncias no existes.</figcaption>
-			</div>
+					<figcaption>1</figcaption>
+				<figure>
+					<img src="img/4794758.png" alt="" width="150px">
+				</figure>
+					<figcaption>1</figcaption>
+				<figure>
+					<img src="img/4794758.png" alt="" width="150px">
+				</figure>
+					<figcaption>1</figcaption>
+				<figure>
+					<img src="img/4794758.png" alt="" width="150px">
+				</figure>
+					<figcaption>1</figcaption>
+				<figure>
+					<img src="img/4794758.png" alt="" width="150px">
+				</figure>
+					<figcaption>1</figcaption>
+				<figure>
+					<img src="img/4794758.png" alt="" width="150px">
+				</figure>
+					<figcaption>1</figcaption>
+				<figure>
+					<img src="img/4794758.png" alt="" width="150px">
+				</figure>
+					<figcaption>1</figcaption>
+				<figure>
+					<img src="img/4794758.png" alt="" width="150px">
+				</figure>
+					<figcaption>1</figcaption>
+			</section>
 
-			<div class="nav">
-				<nav>
-					<ul>
-						<li>Inicio</li>
-						<li>Trabajos</li>
-						<li>Contacto</li>
-					</ul>
-				</nav>
-			</div>
-			
-			
-		</header>
+		<!-- FIN IMG -->
 
-	<!-- FIN HEADER -->
+		<!-- CONTACTO -->
+		
+			<section>
+				<div class="wrapper">
+                        <form action="javascript:enviar();" id="frm_contacto">
+                            <div class="left">
+                                <input
+                                    name="name"
+                                    type="text"
+                                    data-require="any"
+                                    data-placeholder="Nombre" required
+                                />
+                                <input
+                                    name="email"
+                                    type="text"
+                                    data-require="email"
+                                    data-placeholder="E-mail" required
+                                />
+                                <input
+                                    name="subject_"
+                                    type="text"
+                                    data-require="any_"
+                                    data-placeholder="Teléfono"
+                                />
 
-	<!-- DESC -->
+                            <!--<a
+                                href="#"
+                                class="twitter"
+                            >
+                                Twitter
+                            </a> -->
+                            <br />
+                            <a
+                                href="https://www.facebook.com/secomgaslp" target="_blank"
+                                class="facebook"
+                            >
+                                Facebook
+                            </a>
+                            </div>
+                            <div class="right">
+                                <textarea
+                                    name="message"
+                                    data-require="any"
+                                    data-placeholder="Mensaje" required
+                                ></textarea>
+                                <a
+                                    data-ui=""
+                                    class="submit" style="top: 10px;
+                                                    left: 400px;
+                                                    position: relative;
 
-		<section>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium cum amet doloremque earum iusto ipsum quo ratione ducimus vero neque, provident eveniet maiores optio, quaerat debitis obcaecati aut voluptas tenetur.
-		</section>
+                                    "
+                                >
+                                    ENVIAR
+                                </a>
+                                <div class="clear"></div>
+                            </div>
+                        </form>
+                    </div>
+			</section>
 
-	<!-- FIN DESC -->
+		<!-- FIN CONTACTO -->
 
-	<!-- IMG -->
+		<footer>
+			<p class="sixteen columns">
+                &copy; Diseño y desarrollo por <a href="https://github.com/IsmaelJDz" target="_BLANK">IsmaelJDz!</a> <img src="img/heart.png" alt="" /> <a href="http://creatividadplaneada.com.mx/" target="_BLANK">Creatividad Planeada</a>
+            </p>
+		</footer>
+		
 
-		<section>
-			
-		</section>
-
-	<!-- FIN IMG -->
-
-	<!-- CONTACTO -->
-	
-		<section></section>
-
-	<!-- FIN CONTACTO -->
-	
-</body>
+		<script src="js/jquery.js"></script>
+		<script src="js/form.js"></script>
+		<script src="js/shadowbox.js"></script>
+        <script> Shadowbox.init(); </script>
+	</body>
 </html>
